@@ -1,0 +1,504 @@
+
+
+html, body
+{
+    height: 100%;
+}
+
+header
+{
+    text-align: center;
+}
+pre#info {
+    color: white;
+    border:none;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+.error
+{
+    color: #e60000;
+    padding : 0 0 0 10px;
+}
+.wrapper
+{
+    min-height: 100%;
+    position: relative;
+}
+
+.title
+{
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Serif;
+    border: 5px solid black;
+}
+
+.title a
+{
+    text-decoration: none;
+    color: white;
+}
+
+nav
+{
+    background-color: orange;
+    font-family: helvetica;
+    text-align: center;
+    padding: 1px 1px 1px 1px;
+}
+
+.navigation
+{
+    margin: 0 24px;
+    z-index: 20;
+}
+
+.navigation a
+{
+    color: #2C3111;
+    font: normal 1.2em serif;
+    line-height: 50px;
+    margin: 0 16px;
+    text-decoration: none;
+}
+
+.navigation a:hover,.navigation #selected
+{
+    color: #6C7151;
+}
+
+div#titleR
+{
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+aside
+{
+    float: left;
+}
+
+.side_text
+{
+    color: #2C3111;
+    border: 4px solid orange;
+    background-color: orange;
+    width: 270px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial;
+    font-size: 12pt;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.50), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.side_reserva
+{
+    color: #2C3111;
+    border: 2px solid orange;
+    background-color: lightgray;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial;
+    font-size: 12pt;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.50), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.side_reserva_hab
+{
+    color: #2C3111;
+    border: 4px solid orange;
+    background-color: orange;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial;
+    font-size: 12pt;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.50), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.reservaHab
+{
+    background-color: lightgray;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.50), 0 1px 2px rgba(0,0,0,0.24);
+    padding: 1px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.side_text p
+{
+    padding-left: 5px;
+    height: auto;
+}
+
+.side_reserva p
+{
+    padding-left: 5px;
+    height: auto;
+    color: #000000;
+}
+
+.side_text a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.promocontainer
+{
+    width: 270px;
+    padding: 10px 10px 10px 10px;
+    background-color: lightgray;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.50), 0 1px 2px rgba(0,0,0,0.24);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 1;
+    font-family: Arial;
+    font-size: 14pt;
+}
+
+.promocontainer h2
+{
+    padding: 0;
+    margin: 0;
+}
+
+.slider_wrapper
+{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider_wrapper p
+{
+    padding: 20px 0 50px 0;
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid white;
+}
+
+#slider
+{
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+    padding: 0;
+    left: 0;
+}
+
+#slider li
+{
+    position: relative;
+    max-width: 100%;
+    float: left;
+    list-style: none;
+    left: 0;
+}
+
+#tank
+{
+    margin: 0 auto;
+    width: 200px;
+    height: 20px;
+    position: relative;
+    top: -2px;
+}
+
+.slidenav
+{
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.slidenav .btSld
+{
+    margin: 3px;
+    padding: 5px;
+    height: 5px;
+    text-decoration: none;
+    border: solid 2px #FFF;
+    border-radius: 30px;
+}
+
+section
+{
+    padding-left: 2px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background-color: white;
+    font-family: Arial;
+    font-size: 14pt;
+}
+
+.divider
+{
+    height: 1px;
+    border-bottom: solid 1px #eaeaea;
+    margin: 1.0em 0em 1.0em 0em;
+}
+
+.divider_s
+{
+    height: 1px;
+    border-bottom: solid 1px #ffcc80;
+    margin: 1.0em 0em 1.0em 0em;
+}
+
+.divider2
+{
+    height: 1px;
+    border-bottom: solid 2px #eaeaea;
+    margin: 2.0em 0em 2.0em 0em;
+}
+
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+}
+
+.dropdown_login
+{
+    position: relative;
+    display: inline-block;
+    z-index: 20;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 360px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 20;
+}
+
+.dropdown-content a
+{
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover
+{
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+.dropdown_login:hover .dropdown-content
+{
+    display: block;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.resaltar
+{
+    font-weight: bold;
+}
+
+.zona_boton
+{
+    position: relative;
+    display: inline-block;
+}
+
+.zona_boton:hover .boton
+{
+    background-color: rgb(230, 149, 0);
+}
+
+.boton
+{
+    background-color: orange;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.botonSel
+{
+    background-color: orange;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.info_footer
+{
+    color: white;
+    font-family: helvetica;
+    position: relative;
+    left: 50px;
+    max-width: 50%;
+}
+
+.info_footer img
+{
+    border: 1px solid white;
+    background-color: white;
+    float: left;
+    position: relative;
+    padding: 0 0 3px 0;
+    left: 20px;
+}
+
+.redes
+{
+    float: right;
+    padding: 10px 10px 0 0;
+    height: 24px;
+}
+
+.redes a
+{
+    border: none;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.redes img
+{
+    height: 24px;
+    width: 24px;
+}
+
+footer
+{
+    background-color: black;
+    padding-top: 6px;
+    clear: both;
+    width: 100%;
+}
+
+.zona_reserva
+{
+    margin-top: 20px;
+    color: #3a3838;
+    font-size: 14px;
+}
+
+input[type=submit]
+{
+    background-color: orange;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+input#finalizar[type=submit]
+{
+    background-color: #24baef;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover
+{
+    background-color: rgb(230, 149, 0);
+}
+
+input#finalizar[type=submit]:hover
+{
+    background-color: blue;
+}
+
+.barra_superior
+{
+    background-color: #e3dfdf;
+    height: 30px;
+}
+
+.margenes
+{
+    margin: 10px 5px 5px;
+    padding-top: 5px;
+}
+
+.fondo-blanco
+{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.boton-seleccionar
+{
+    width: 100%;
+    height: 100%;
+}
+
+.hab-barra
+{
+    background-color: #ffffff;
+}
+
+.boton_x
+{
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.boton_x_white
+{
+    background-color: white;
+    color: orange;
+    border: none;
+    cursor: pointer;
+}
+
+.botonSig
+{
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #0fb5ff;
+}
+.resrvascontainer
+{
+   padding: 10px 10px 10px 10px;
+   background-color: lightgray;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.50), 0 1px 2px rgba(0,0,0,0.24);
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   z-index: 1;
+   font-family: Arial;
+   font-size: 14pt;
+}
